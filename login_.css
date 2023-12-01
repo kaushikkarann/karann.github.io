@@ -1,0 +1,105 @@
+*{
+    font-family: poppins;
+  }
+  
+  body{
+    background-image:url(/Login/bk.png) ;
+    color:white;
+    background-size: cover;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  
+  #box{
+  top: 150px;
+  position: relative;
+  border-radius:20px ;
+  width: 350px;
+  height:50%;
+  background-color: hsla(0, 2%, 10%, 0.851);
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 0;
+  }
+  
+  
+  
+  h1{
+  text-align: center;
+  }
+  
+  #form{
+    display:grid;
+    justify-items: center;  
+  }
+  
+  input{
+  width: 200px;
+  text-align: center;
+  height: 50px;
+  border-radius: 25px;
+  border:none;
+  margin:10px;
+  background-color: rgba(255, 255, 255, 0.868);
+  }
+  #form img{
+   position: relative;
+    left:-80px;
+    top:52px;
+    width:35px;
+    z-index: 9;
+    background-color: white;
+    border-radius:50% ;
+  }
+  
+  
+  input:hover,input:focus{
+  background-color: rgb(255, 255, 255);
+  transform:scale(1.11,1.11);
+  transition: all ease-in-out 0.5s;
+  } 
+  
+  #box:hover{
+    transform:scale(1.2,1.2);
+    transition: all ease-in-out 0.5s;
+  }
+  
+  #form a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  #button{
+    background-color:#373737;
+    color: aliceblue;
+  }
+  
+  #button:hover{
+    background-color: #54626F ;
+    transform:scale(1.11,1.11);
+    }
+  
+    #forget{  
+      position: relative;
+      transform: translate(0px,20px);
+      border-radius: 10px;
+      background-color: #54626F;
+    
+    }
+  
+    #forget:hover{  
+    
+      transform: translate(0px,-20px);
+      background-color: #54626F;
+      transition: all ease-in-out 0.5s;
+    }
+  #forget1{
+      height: 30px;
+      position: relative;
+     
+    }
